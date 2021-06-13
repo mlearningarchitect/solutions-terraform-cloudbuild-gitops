@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "integral-berm-315806-tfstate"
+    bucket = "integral-berm-315806-tfstate
     prefix = "env2/prod"
   }
 }
