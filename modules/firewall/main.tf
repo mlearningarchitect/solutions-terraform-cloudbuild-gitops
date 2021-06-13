@@ -27,6 +27,6 @@ resource "google_compute_firewall" "allow-http" {
     ports    = ["443"]
   }
 
-  target_tags   = ["server2"]
+  target_tags   = ["server4"]
   source_ranges = ["0.0.0.0/0"]
 }
