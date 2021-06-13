@@ -20,7 +20,7 @@ locals {
 provider "google" {
   project = "${var.project}"
 }
-
+/*
 module "vpc" {
   source  = "../../modules/vpc"
   project = "${var.project}"
@@ -38,3 +38,4 @@ module "firewall" {
   project = "${var.project}"
   subnet  = "${module.vpc.subnet}"
 }
+*/
